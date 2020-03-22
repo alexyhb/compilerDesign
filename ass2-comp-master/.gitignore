@@ -1,0 +1,12 @@
+*
+!.gitignore
+!*.ll
+!*.yy
+!main.cc
+!node.hh
+!expression.hh
+!statement.hh
+!translate.hh
+!Makefile
+!tc*.lua
+!asm.*

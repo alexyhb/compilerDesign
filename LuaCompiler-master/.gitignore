@@ -1,0 +1,16 @@
+.DS_Store
+
+*.tab.cc
+*.tab.hh
+*.tab.o
+*.output
+
+*.svg
+*.pdf
+parse.txt
+
+stack.hh
+lex.yy.c
+
+parser
+int
