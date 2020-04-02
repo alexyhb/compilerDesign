@@ -1,0 +1,10 @@
+Text ->words-together  $split$apart<-
+Semi
+Text -> x <-
+Pipe
+Text ->y<-
+Semi
+Text -> terminal<-
+NL
+Text ->not real bash!?<-
+NL

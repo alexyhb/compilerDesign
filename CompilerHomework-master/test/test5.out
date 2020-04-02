@@ -1,0 +1,19 @@
+Text ->normal<-
+Pipe
+Text ->split<-
+Semi
+Text ->here<-
+Blank 1 chars
+Text ->and<-
+Blank 1 chars
+Text ->spaces<-
+NL
+Text ->not\;here\|though<-
+NL
+Text ->split\ me\ not<-
+NL
+Text ->finishing\;<-
+Semi
+Text ->then\\<-
+Semi
+NL

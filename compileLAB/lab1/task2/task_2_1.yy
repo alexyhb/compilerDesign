@@ -1,0 +1,2 @@
+%%
+stream : /*empty*/ { /* surpress warning */ } ;

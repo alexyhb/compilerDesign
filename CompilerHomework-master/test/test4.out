@@ -1,0 +1,19 @@
+Text ->words-together<-
+Blank 2 chars
+Text ->$split$apart<-
+Semi
+Blank 1 chars
+Text ->x<-
+Blank 1 chars
+Pipe
+Text ->y<-
+Semi
+Blank 1 chars
+Text ->terminal<-
+NL
+Text ->not<-
+Blank 1 chars
+Text ->real<-
+Blank 1 chars
+Text ->bash!?<-
+NL

@@ -1,0 +1,16 @@
+Text ->prefix<-
+Var ->var<-
+Quoted ->$notavar<-
+Blank 1 chars
+Quoted ->all one string<-
+NL
+Quoted ->;<-
+Blank 1 chars
+Text ->\;<-
+Blank 1 chars
+Semi
+Blank 1 chars
+Quoted ->|<-
+Text ->\|<-
+Pipe
+NL
