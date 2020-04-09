@@ -1,0 +1,11 @@
+Built a parse-tree:
+stream:
+  optline:has line
+    command:
+      WORD:cmd
+      concatenate:
+        WORD:arg
+        QUOTED:same arg
+        VAREXP:alsothesame
+      WORD:separate
+  optline:empty

@@ -1,0 +1,19 @@
+Built a parse-tree:
+stream:
+  optline:has line
+    equals:
+      WORD:x
+      WORD:y
+      equals:
+        WORD:k
+        concatenate:
+          DBLQUOTED:z
+          VAREXP:var
+          DBLQUOTED: more
+        command:
+          WORD:cmd
+          concatenate:
+            WORD:-flag
+            EQUALS:=
+            WORD:something
+  optline:empty

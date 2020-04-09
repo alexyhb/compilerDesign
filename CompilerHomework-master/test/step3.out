@@ -1,0 +1,55 @@
+Built a parse-tree:
+stream:
+  optline:has line
+    units:
+      WORD:word
+      BLANK: 
+      WORD:-flag
+      BLANK: 
+      WORD:name
+  optline:has line
+    line:
+      line:
+        line:
+          units:
+            WORD:cmd
+            BLANK: 
+          units:
+            WORD:/path/bin
+        pipeline:
+          pipeline:
+            units:
+              WORD:unstructured
+            units:
+              WORD:x
+          units:
+            WORD:sequence
+      units:
+        WORD:blah
+  optline:has line
+    line:
+      line:
+        units:
+          WORD:works
+          BLANK: 
+          WORD:because
+        units:
+          BLANK: 
+      units:
+        WORD:blank
+        BLANK: 
+        WORD:between
+  optline:has line
+    line:
+      line:
+        units:
+          WORD:similarly
+          BLANK: 
+        pipeline:
+          units:
+            WORD:\;
+          units:
+            WORD:\|
+      units:
+        WORD:blah
+  optline:empty

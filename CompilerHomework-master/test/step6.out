@@ -1,0 +1,26 @@
+Built a parse-tree:
+stream:
+  optline:has line
+    command:
+      WORD:diff
+      SUBSHELL:
+        stream:
+          optline:has line
+            pipeline:
+              command:
+                WORD:ls
+              command:
+                WORD:grep
+                QUOTED:^...
+      SUBSHELL:
+        stream:
+          optline:has line
+            line:
+              command:
+                WORD:cat
+                WORD:prefix
+              command:
+                WORD:cut
+                WORD:-c1-3
+                WORD:rest
+  optline:empty

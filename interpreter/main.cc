@@ -21,7 +21,7 @@ int main(int argc, char **argv)
     parser.parse();
     // root.dump();
     // dump to dot form text file
-    std::ofstream SaveFile("parse.txt");
+    std::ofstream SaveFile("parse.dot");
     SaveFile << root.dump_to_dot();
     SaveFile.close();
     root.eval();

@@ -1,0 +1,16 @@
+Built a parse-tree:
+stream:
+  optline:has line
+    line:
+      line:
+        line:
+          line:
+            WORD:wordsinlines
+            BLANK: 
+          SEMI:;
+        PIPE:|
+      WORD:random
+  optline:empty
+  optline:has line
+    WORD:ANon-emptyline
+  optline:empty

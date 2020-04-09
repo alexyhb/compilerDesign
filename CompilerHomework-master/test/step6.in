@@ -1,0 +1,1 @@
+diff <(ls| grep '^...') <(cat prefix; cut -c1-3 rest)

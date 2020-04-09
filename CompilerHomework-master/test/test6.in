@@ -1,3 +1,0 @@
-prefix$var $afterspace;$x;prefix$y
-prefix$var $afterspace|$x|prefix$y
-prefix\ $var

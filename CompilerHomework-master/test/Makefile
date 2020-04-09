@@ -1,27 +1,23 @@
-PARSER = ../C/parser
+PARSER = ../parser
 
-test: test1 test2 test3 test4 test5 test6 test7 test8
+step: step1 step2 step3 step4 step5 step6 step7 step8
 
-test1:
-	$(PARSER) < test1.in | diff test1.out -
+step1:
+	$(PARSER) < step1.in | diff step1.out -
 
-test2:
-	$(PARSER) < test2.in | diff test2.out -
+step2:
+	$(PARSER) < step2.in | diff step2.out -
+	$(PARSER) < step2-.in | diff syntax_error.out -
 
-test3:
-	$(PARSER) < test3.in | diff test3.out -
+step3:
+	$(PARSER) < step3.in | diff step3.out -
+	$(PARSER) < step3-.in | diff syntax_error.out -
 
-test4:
-	$(PARSER) < test4.in | diff test4.out -
+step4:
+	$(PARSER) < step4.in | diff step4.out -
 
-test5:
-	$(PARSER) < test5.in | diff test5.out -
+step5:
+	$(PARSER) < step5.in | diff step5.out -
 
-test6:
-	$(PARSER) < test6.in | diff test6.out -
-
-test7:
-	$(PARSER) < test7.in | diff test7.out -
-
-test8:
-	$(PARSER) < test8.in | diff test8.out -
+step6:
+	$(PARSER) < step6.in | diff step6.out -
